@@ -1,0 +1,157 @@
+﻿<!doctype html>
+<html lang="he">
+<head>
+    <meta charset="utf-8" />
+    <title>טיולים-דרום אפריקה למשפחות</title>
+    <meta name="description" content="כל המידע למשפחה המטיילת בדרום אפריקה" />
+    <meta name="keywords" content="דרום אפריקה, טיול, חופים, פארקים, נופים, ספארי" />
+    <meta name="author" content="reut hitner" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <link rel="icon" href="images/icons/1x/Asset 1.png" type="image/png" sizes="16x16">
+    <!-- CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Assistant" rel="stylesheet">
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link href="styles/myStyle.css" rel="stylesheet" />
+    <link href="styles/mainStyle.css" rel="stylesheet" />
+    <link href="styles/tripsStyle .css" rel="stylesheet" />
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="jScripts/JavaScript.js"></script>
+</head>
+<body onload="showSlides(1)">
+    <div id="background"></div>
+    <div id="container">
+
+        <header id="hpHeader">
+            <nav>
+                <div class="navbar" aria-label="main-nav">
+                    <a href="index.html">דף הבית</a>
+                    <a href="info.html">דרום אפריקה</a>
+                    <div class="dropdown1">
+                        <button class="dropbtn1">
+                            אתרים ואטרקציות
+                            <i class="attractions"></i>
+                        </button>
+                        <div class="dropdown-content1">
+                            <a href="trips.html">טיולים</a>
+                            <a href="#" class="notActive">אקסטרים</a>
+                            <a href="#" class="notActive">חופים</a>
+                        </div>
+                    </div>
+                    <div class="dropdown2">
+                        <button class="dropbtn2">
+                            ספארי
+                            <i class="sffary"></i>
+                        </button>
+                        <div class="dropdown-content2">
+                            <a href="#" class="notActive">פארק אדו</a>
+                            <a href="#" class="notActive">ספארי בוטלרסקופ</a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </nav>
+            <div id="sideLogo">
+                <a href="index.html">
+                    <img src="images/logo/logo for pages .PNG" />
+                </a>
+            </div>
+            <section class="tripsIntro">
+                <h1>טיולים</h1>
+                <br />
+                <p>
+                    תוכלו למצוא בדרום אפריקה את הנופים מהמרהיבים ביותר בעולם!
+                    <br />
+                    יש בה הכל, הרים מופלאים, חופים מדהימים, יערות ומדבריות.
+                    <br />
+                    הנה כמה מהמומלצים שלנו:
+                </p>
+            </section>
+            <br />
+            <section class="gallery">
+                <div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">6 / 1</div>
+                        <img src="gallery/giraffes.jpg" style="width: 750px" height="500" />
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">6 / 2</div>
+                        <img src="gallery/kayaks.jpg" style="width: 750px" height="500" />
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">6 / 3</div>
+                        <img src="gallery/penguins.JPG" style="width: 750px" height="500" />
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">6 / 4</div>
+                        <img src="gallery/rino.jpg" style="width:750px" height="500" />
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">6 / 5</div>
+                        <img src="gallery/beach.jpg" style="width: 750px" height="500" />
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">6 / 6</div>
+                        <img src="gallery/table mountion.JPG" style="width: 750px" height=" 500" />
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+
+                    <div class="caption-container">
+                        <p id="caption"></p>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="column">
+                            <img class="demo cursor" src="gallery/giraffes.jpg" style="width:100%" onclick="currentSlide(1)" alt="ג'ירפות-ספארי בוטלרסקופ">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="gallery/kayaks.jpg" style="width:100%" onclick="currentSlide(2)" alt="קאייקים בנהר וולדרנס">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="gallery/penguins.JPG" style="width:100%" onclick="currentSlide(3)" alt="פינגווינים-חוף בולדרס ביץ">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="gallery/rino.jpg" style="width:100%" onclick="currentSlide(4)" alt="קרנף-ספארי בוטלרסקופ">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="gallery/beach.jpg" style="width:100%" onclick="currentSlide(5)" alt="חוף ברנטון">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="gallery/table mountion.JPG" style="width:100%" onclick="currentSlide(6)" alt="הר השולחן">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </header>
+        <br />
+        <br />
+
+        <footer id="hpFooter">
+            <div id="navFooter">
+                <br />
+                <a href="aboutUs.html">אודות</a>
+                <a href="siteMap.html">מפת האתר</a>
+                <a href="contactUs.html">צור קשר</a>
+            </div>
+
+        </footer>
+
+    </div>
+
+</body>
+</html>
+
+
+

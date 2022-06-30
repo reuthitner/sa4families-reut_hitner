@@ -1,0 +1,124 @@
+﻿<!doctype html>
+<html lang="he">
+<head>
+    <meta charset="utf-8" />
+    <title>צור קשר-דרום אפריקה למשפחות</title>
+    <meta name="description" content="כל המידע למשפחה המטיילת בדרום אפריקה" />
+    <meta name="keywords" content="דרום אפריקה, צור קשר, שאלות, דירוג אתר" />
+    <meta name="author" content="reut hitner" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <link rel="icon" href="images/icons/1x/Asset 1.png" type="image/png" sizes="16x16">
+    <!-- CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Assistant" rel="stylesheet">
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link href="styles/myStyle.css" rel="stylesheet" />
+    <link href="styles/mainStyle.css" rel="stylesheet" />
+    <link href="styles/contactUSStyle .css" rel="stylesheet" />
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+
+</head>
+<body>
+    <div id="background"></div>
+    <div id="container">
+
+        <header id="hpHeader">
+            <nav>
+                <div class="navbar" aria-label="main-nav">
+                    <a href="index.html">דף הבית</a>
+                    <a href="info.html">דרום אפריקה</a>
+                    <div class="dropdown1">
+                        <button class="dropbtn1">
+                            אתרים ואטרקציות
+                            <i class="attractions"></i>
+                        </button>
+                        <div class="dropdown-content1">
+                            <a href="trips.html">טיולים</a>
+                            <a href="#" class="notActive">אקסטרים</a>
+                            <a href="#" class="notActive">חופים</a>
+                        </div>
+                    </div>
+                    <div class="dropdown2">
+                        <button class="dropbtn2">
+                            ספארי
+                            <i class="sffary"></i>
+                        </button>
+                        <div class="dropdown-content2">
+                            <a href="#" class="notActive">פארק אדו</a>
+                            <a href="#" class="notActive">ספארי בוטלרסקופ</a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </nav>
+            <div id="sideLogo">
+                <a href="index.html">
+                    <img src="images/logo/logo for pages .PNG" />
+                </a>
+            </div>
+
+            <section class="mainPage">
+                <div>
+                    <h1 id="headLine" lang="en-us"> צרו איתנו קשר!</h1>
+                    <div id="logoPic"></div>
+                </div>
+            </section>
+            <br />
+            <br />
+            <form class="contactUs">
+                <span> נשמח שתכתבו לנו ונחזור אליכם בהקדם</span>
+                <br />
+                <br />
+                <br />
+                <label for="name">*שם מלא</label>
+                <input type="text" placeholder="הכנס כאן את שמך המלא" required>
+
+                <label for="tel">*מספר טלפון</label>
+                <input type="text" placeholder="הזן מספר טלפון נייד בעל 10 תווים" required>
+
+                <label for="email">*כתובת מייל</label>
+                <input type="text" name="user email" placeholder="הזן כאן כתובת מייל" required/>
+
+                <fieldset for="gender">סמן מגדר</fieldset>
+                זכר <input type="radio" name="gender" checked /> נקבה <input type="radio" name="gender" />
+                <br />
+                <br />
+                <label for="rang">כמה את מרוצה מהאתר שלנו?</label>
+                <br />
+                <br />
+                כלל לא מרוצה <input type="range" name="point" min="1" max="10" /> מרוצה מאוד
+                <br />
+                <br />
+                <label for="country">איך תעדיפו שנחזור אלייכם?</label>
+                <select id="country" name="country">
+                    <option value="australia">באמצעות מייל</option>
+                    <option value="canada">בשיחת טלפון</option>
+                    <option value="usa">בוואצאפ</option>
+                </select>
+
+                <label for="subject">כתבו לנו:</label>
+                <textarea type="text" name="subject" placeholder="הכניסו כאן מלל חופשי" style="height:100px"></textarea>
+
+                <input type="submit" value="שלח">
+            </form>
+        </header>
+        <br />
+        <br />
+        <footer id="hpFooter">
+            <br />
+            <div id="navFooter">
+                <a href="aboutUs.html">אודות</a>
+                <a href="siteMap.html">מפת האתר</a>
+                <a href="contactUs.html">צור קשר</a>
+            </div>
+
+        </footer>
+
+    </div>
+
+</body>
+</html>
+
+
